@@ -18,9 +18,10 @@ view_file = input("Do you want to view the file?(y or n) \n")
 # giving output to user, for the file user created earlier
 while view_file not in ['y', 'n']:
     view_file = input("Do you want to view the file?(Please enter y or n) \n")
-    if view_file == 'y':
-        with open(f'{file_name}.txt', 'r') as file:
-            file = file.read()
-        print(f'\nYour file contains: \n{file}')
-    else:
-        pass
+
+if view_file == 'y':
+    with open(f'{file_name}.txt', 'r') as file:
+        file = file.read()
+    print(f'\nYour file contains: \n{file}')
+else:
+    pass
