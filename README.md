@@ -11,3 +11,6 @@ This repo contains all my practice file (small projects) I create while learning
   
 3. pokemon.py
   > making api request by importing requests and printing the output.
+
+4. bankingApp.py
+  > a transaction logger app for a banking system which creates a file to log all your transactions.
